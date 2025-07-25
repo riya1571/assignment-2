@@ -156,10 +156,55 @@
     font-size:16px ;
     font-weight: 600;
     border: none;
+}
 
 .btn{
     padding-bottom: 30px;
 }
-/* .b-button:hover {
-    background-color: greenyellow;
-} */
+
+.b-button:hover {
+    background-color: whitesmoke;
+    color: #E95A08;
+    cursor: pointer;
+}
+
+
+/* plants-lover-section*/
+
+.plants-lover{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 133.88px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plants-lover-img{
+    width:540px ;
+    height:597px ;
+    
+}
+
+.plants-lover-text{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 60px;
+
+}
+
+.plants-lover-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.plants-lover-subtitle{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 50%);
+}
+
+.plants-lover-subtitle li{
+    padding-top: 20px;
+}
